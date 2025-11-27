@@ -141,7 +141,7 @@ const ProductDetail = () => {
                 Request Quote
               </Button>
               <WhatsAppButton 
-                phoneNumber="+254755335197"
+                phoneNumber="+254731539855"
                 message={`Hi! I'm interested in ${product.name}. Price: ${product.currency} ${product.price.toLocaleString()}${product.unit ? ` ${product.unit}` : ''}. Could you provide more details?`}
                 variant="prominent"
                 showText={true}
@@ -151,10 +151,10 @@ const ProductDetail = () => {
                 size="lg" 
                 variant="outline"
                 className="w-full"
-                onClick={() => window.open('tel:+254755335197', '_self')}
+                onClick={() => window.open('tel:+254731539855', '_self')}
               >
                 <Phone className="h-5 w-5 mr-2" />
-                Call to Order (+254755335197)
+                Call to Order (+254731539855)
               </Button>
             </div>
 

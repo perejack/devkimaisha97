@@ -69,7 +69,7 @@ const Header = () => {
           <div className="hidden md:flex items-center space-x-4">
             <Button variant="ghost" size="sm">
               <Phone className="h-4 w-4 mr-2" />
-              +254755335197
+              +254731539855
             </Button>
             <Button variant="industrial" size="sm">
               <ShoppingCart className="h-4 w-4 mr-2" />
@@ -81,7 +81,7 @@ const Header = () => {
           <div className="md:hidden flex items-center space-x-2">
             <Button variant="ghost" size="sm" className="text-xs">
               <Phone className="h-3 w-3 mr-1" />
-              +254755335197
+              +254731539855
             </Button>
             <button
               onClick={() => setIsOpen(!isOpen)}
@@ -117,7 +117,7 @@ const Header = () => {
             ))}
             <div className="pt-4 space-y-2">
               <WhatsAppButton 
-                phoneNumber="+254755335197"
+                phoneNumber="+254731539855"
                 variant="inline"
                 className="w-full justify-center"
               />
